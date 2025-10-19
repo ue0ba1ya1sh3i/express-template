@@ -24,7 +24,7 @@ expressApp.use((req, res, next) => {
 
   console.log(`[${time}] ${method} ${url} from ${ip}`);
 
-  next(); // 次のルートへ
+  next()
 });
 
 // Main routing
